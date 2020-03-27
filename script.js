@@ -58,7 +58,7 @@ function changeBackground() {
       digit[i].style.color = "#f5cb57";
       digit[i].style.backgroundImage = "linear-gradient(180deg, rgba(218, 76, 61, 0.5), rgba(234, 125, 33, 0.5), rgba(95, 36, 66, 0.5))";
     }
-  } else if (getHours > 22 && getHours < 24) {
+  } else if (getHours > 21 && getHours <= 23) {
     background.style.backgroundImage = "url(img-5.svg)";
     for (let i = 0; i < digit.length; i++) {
       digit[i].style.color = "#dbe2d7";
