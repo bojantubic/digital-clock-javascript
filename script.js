@@ -32,7 +32,7 @@ function changeBackground() {
     background.style.backgroundImage = "url(img-5.svg)";
     for (let i = 0; i < digit.length; i++) {
       digit[i].style.color = "#dbe2d7";
-      digit[i].style.backgroundImage = "linear-gradient(180deg, rgba(78, 98, 145, 0.5), rgba(201, 153, 174, 0.5), rgba(73, 150, 172, 0.5))";
+      digit[i].style.backgroundImage = "linear-gradient(180deg, rgba(78, 98, 145, 0.5), rgba(201, 153, 174, 0.5), rgba(39, 22, 65, 0.5))";
     }
   } else if (getHours > 6 && getHours < 9) {
     background.style.backgroundImage = "url(img-1.svg)";
@@ -62,7 +62,7 @@ function changeBackground() {
     background.style.backgroundImage = "url(img-5.svg)";
     for (let i = 0; i < digit.length; i++) {
       digit[i].style.color = "#dbe2d7";
-      digit[i].style.backgroundColor = "linear-gradient(180deg, rgba(78, 98, 145, 0.5), rgba(201, 153, 174, 0.5), rgba(73, 150, 172, 0.5))";
+      digit[i].style.backgroundColor = "linear-gradient(180deg, rgba(78, 98, 145, 0.5), rgba(201, 153, 174, 0.5), rgba(39, 22, 65, 0.5))";
     }
   }
 }
